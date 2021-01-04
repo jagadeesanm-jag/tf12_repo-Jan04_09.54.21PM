@@ -52,3 +52,5 @@ resource "aws_instance" "foo" {
 output "private_dns" {
   value = aws_instance.foo.private_dns
 }
+
+# Modified [main.tf] on [2021-01-04 21:55:26.754700]
